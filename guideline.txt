@@ -1,0 +1,33 @@
+Construire un blog statique
+
+Meme si ce projet ne semble pas etre le plus fun, c'est un des projet perso le plus complet.
+
+Le but est de s'entrainer à mettre en place un site via un génerateur de site statique comme NextJS, Gatsby ou Nuxt,
+et de déployer sur un hebergeur.
+Le blog sera vraiment en ligne et on aura la possibilité de partager le fronted et l'accès au CMS Contentful auprès des recruteurs.
+
+Ce qui est intéressant dans ce projet est d'apprendre à manipuler une API avec un controle d'accès, à générer un site statique via Gatsby
+et à déplyer l'application via le terminal.
+
+Stack : Gatsby , React, TailwindCSS, Contentful API pour le CMS, Netlify pour le déploiement.
+
+Features MVP :
+Afficher une liste d'articles comprenant chacun un titre, un body et un ou plusieurs tags
+Afficher l'intégralité d'un seul article (son titre, son body et ses tags) sur une page à part entière
+Avoir un affichage responsive sur la largeur de la page sans AUCUN autre style CSS
+
+Remplir le blog avec 10 articles (Générateur lorem ipsum)
+
+Features V1
+Créer une page auteur vous décrivant. Le contenu doit comporter une photo de vous ainsi que du texte.
+Le contenu doit etre posté via contentful
+
+Ajouter une image de couverture pour chaque article et affichez là dans la liste de tous les articles ainsi que pour chaque page article
+
+Mettre du style dans le blog en utilisant les composants de Tailwind
+
+Proposer une page par tag qui regroupe l'ensemble des articles concernant ce tag
+
+Features additionnelles
+Ajouter un menu Horizontal ou Vertical facon hamburger sur les petits écrans
+Tests automatisé avec Jest
